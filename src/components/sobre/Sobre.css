@@ -1,0 +1,57 @@
+section {
+    margin-top: 2rem;
+}
+
+section h1 {
+    text-align: center;
+    color: #06d33d;
+    font-size: 1.8rem;
+}
+
+.section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10rem 5rem 12rem;
+    gap: 8rem;
+}
+
+.section-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-photo img {
+    margin-top: 1rem;
+    background: #06d33d;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.section-description .p-sobre {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+    section {
+        margin-top: 1.5rem;
+    }
+
+    .section-div {
+        flex-direction: column;
+        padding: 2rem 0rem 3rem 0rem;
+        gap: 2rem;
+    }
+
+    .section-photo img {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+}

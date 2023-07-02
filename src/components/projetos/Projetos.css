@@ -1,0 +1,36 @@
+.cards-projects {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 3rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-project-cima {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+.card-project-baixo {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .card-project-cima {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    
+    .card-project-baixo {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}

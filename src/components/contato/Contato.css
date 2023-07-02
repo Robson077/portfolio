@@ -1,0 +1,24 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form svg {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    form {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        gap: 5rem;
+        padding: 2rem;
+    }
+
+    
+}

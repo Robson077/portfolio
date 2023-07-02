@@ -1,0 +1,16 @@
+.card-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+span svg {
+    font-size: 5.5rem;
+}
+
+.card-name {
+    color: #06d33d;
+    font-size: 1.3rem;
+}
+

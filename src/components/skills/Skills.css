@@ -1,0 +1,39 @@
+.cards-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.cards-skills .cards-baixo {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.cards-skills .cards-cima {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .cards-skills {
+        flex-direction: column;
+    }
+
+    .cards-skills .cards-baixo {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    
+    .cards-skills .cards-cima {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
